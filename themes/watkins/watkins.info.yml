@@ -1,0 +1,37 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Watkins Heavy Hauling'
+description: 'Author Rick Cisneros'
+package: 'Bootstrap'
+
+regions:
+  left_menu: 'Left Menu'
+  logo_area: 'Logo Area'
+  right_menu: 'Right Menu'
+  slider:     'Slider'
+  callout:    'Front Callout'
+  ourServicesData: 'Our Services Data'
+  secondCallout:  'Second front callout'
+  whatWeDoData: 'What We Do Data'
+  testimonials: 'What We do testimonials' 
+  navigation: 'Navigation'
+  page_title: 'Custom Page Title'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  prefooter1:     'Prefooter box 1'
+  prefooter2:     'Prefooter box 2'
+  prefooter3:     'Prefooter box 3'
+  prefooter4:     'Prefooter box 4'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - watkins/framework
